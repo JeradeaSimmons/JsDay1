@@ -5,3 +5,9 @@ background-size: cover;
 height: 250vh;
 
 }
+
+.score-board {
+    border: 10px solid red;
+    height: 100%;
+    width: 100%;
+}
