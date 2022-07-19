@@ -54,21 +54,25 @@ function StartOver1() {
     
 }
 
-function endGame() {
-    let codeElement = document.getElementById('endGame')
+function endGameHome() {
+    let codeElement = document.getElementById('endGameHome')
     if (
           homePoints > awayPoints
     ) {
         window.alert('Home Team Wins!') 
-    console.log();
-    }
-    else {
-        window.alert('Away Team Wins!')
+    
     }
     
 }
-
-
-
-
-
+function endGameAway() {
+    let codeElement = document.getElementById(endGameAway)
+    if (homePoints < awayPoints) {
+        window.alert('Away Team Wins!')
+    }
+}
+function endGameTie() {
+    let codeElement = document.getElementById(endGameTie)
+    if (homePoints == awayPoints) {
+        window.alert('TIE!!')
+    }
+}
