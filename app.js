@@ -38,12 +38,22 @@ function FieldGoalAway() {
     console.log(awayPoints);
 }
 
-function StartOver() {
-    restart = 0
-    
+function StartOver() { 
+    awayPoints = 0
+    let codeElement = document.getElementById('Away-Team')
+    codeElement.innerText = awayPoints
     
     
 }
+
+function StartOver1() { 
+    homePoints = 0
+    let codeElement = document.getElementById('Home-Team')
+    codeElement.innerText = homePoints
+    console.log(homePoints);
+    
+}
+
 
 
 
