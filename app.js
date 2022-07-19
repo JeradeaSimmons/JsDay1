@@ -65,6 +65,7 @@ function endGame() {
     else {
         window.alert('Away Team Wins!')
     }
+    
 }
 
 
