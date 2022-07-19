@@ -50,8 +50,21 @@ function StartOver1() {
     homePoints = 0
     let codeElement = document.getElementById('Home-Team')
     codeElement.innerText = homePoints
-    console.log(homePoints);
     
+    
+}
+
+function endGame() {
+    let codeElement = document.getElementById('endGame')
+    if (
+          homePoints > awayPoints
+    ) {
+        window.alert('Home Team Wins!') 
+    console.log();
+    }
+    else {
+        window.alert('Away Team Wins!')
+    }
 }
 
 
